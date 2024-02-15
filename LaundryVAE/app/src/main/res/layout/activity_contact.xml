@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/brno1"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical"
+            android:background="@drawable/round">
+            <RelativeLayout
+                android:id="@+id/containerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:text="LAUNDRY VAE"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/rate"
+                    android:text="4,8"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF9800"
+                    android:layout_below="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_star_24"
+                    android:layout_toRightOf="@+id/rate"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/name"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_star_24"
+                    android:layout_toRightOf="@+id/rate"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/name"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_star_24"
+                    android:layout_toRightOf="@+id/rate"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_below="@+id/name"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_star_24"
+                    android:layout_toRightOf="@+id/rate"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_below="@+id/name"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_star_24"
+                    android:layout_toRightOf="@+id/rate"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_below="@+id/name"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/location1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_location"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    app:tint="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/clock1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_clock_24"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@+id/location1"
+                    app:tint="@color/black"/>
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_phone_24"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/clock1"
+                    app:tint="@color/black"/>
+                <ImageView
+                    android:id="@+id/webpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_find_in_page_24"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/phone"
+                    app:tint="@color/black" />
+                <TextView
+                    android:text="Kolejni 612 00 - Brno"
+                    android:textSize="20sp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_toRightOf="@id/location1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:text="Open :   8.00 - 20:00"
+                    android:textSize="20sp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_toRightOf="@id/clock1"
+                    android:layout_below="@id/location1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:text="+420 684 147 238"
+                    android:textSize="20sp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_toRightOf="@id/phone"
+                    android:layout_below="@id/clock1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:text="https://www.laundryvae.com"
+                    android:textSize="20sp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:layout_toRightOf="@id/webpage"
+                    android:layout_below="@id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

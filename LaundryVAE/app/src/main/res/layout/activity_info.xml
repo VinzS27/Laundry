@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/containerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:text="WASHMACHINE INFO"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext"
+                android:text="1.Before starting the wash, press the wahsing machine door in the indicated part, which locks."
+                android:layout_below="@+id/name"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext1"
+                android:text="2.The door cannot be opened while washing."
+                android:layout_below="@+id/washtext"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext2"
+                android:text="3.We recommend that before the first wash, remove any possible residual dirt from the drum."
+                android:layout_below="@+id/washtext1"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext3"
+                android:text="4.Use only washing detergent with the washing machine."
+                android:layout_below="@+id/washtext2"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext4"
+                android:text="We do not respond to possible damages or colors, which are the consequence of the use of bleach or products to color the linen."
+                android:layout_below="@+id/washtext3"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/washtext5"
+                android:text="DRYER INFO"
+                android:layout_below="@+id/washtext4"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:id="@+id/washtext7"
+                android:text="1.When inserting clothes in the dryer, avoid overloading it or putting it on half empty."
+                android:layout_below="@+id/washtext5"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext8"
+                android:text="2.Insert similar items that have similar drying times. The operating manuals generally contain useful tables with recommended cycles based on the fabrics and garments to be dried."
+                android:layout_below="@+id/washtext7"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext9"
+                android:text="3.You do not need to fold the garments, just insert them carefully, one by one, and not like a tangle of rags."
+                android:layout_below="@+id/washtext8"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext10"
+                android:text="4.The best way is to slam them before placing them in the door."
+                android:layout_below="@+id/washtext9"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext11"
+                android:text="5.Shirt sleeves and trouser legs must not be rolled up, otherwise drying may be difficult and uneven."
+                android:layout_below="@+id/washtext10"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext12"
+                android:text="4. The best way is to slam them before placing them in the door."
+                android:layout_below="@+id/washtext11"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext13"
+                android:text="6.If you have clothes that have decorations or could be damaged, use the trick of arranging them inside out. "
+                android:layout_below="@+id/washtext12"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/washtext14"
+                android:text="IRON INFO"
+                android:layout_below="@+id/washtext13"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:id="@+id/washtext15"
+                android:text="It is good to always iron the garments inside out, especially if they have loot and decorations, which could get damaged or come off on contact with the soleplate, and if they are very dark garments that could become shiny."
+                android:layout_below="@+id/washtext14"
+                android:textSize="20sp"
+                android:layout_marginBottom="70dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
