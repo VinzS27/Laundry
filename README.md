@@ -1,7 +1,7 @@
 <h1 align="center" id="title">Laundry app for Graphics User Interface</h1>
 
 <h2>Description:</h2>
-<p id="description">the idea is to start a washing machine inside a laundry room remotely from this app. The user can choose various washing options or book other services (within the laundry) from this app.</p>
+<p id="description">The idea is to start a washing machine inside a laundry room remotely from this app. The user can choose various washing options or book other services (within the laundry) from this app.</p>
 <p id="description">- Home: choose which service to use inside the laundry.</p>
 <p id="description">- Map: Choose the laundry closest to you.</p>
 <p id="description">- Wallet: Add your credit card to pay for the service.</p>
